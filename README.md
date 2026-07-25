@@ -1,2 +1,10 @@
-# dingco-challenge-solutions
-Released reference answers for Dingcodingco challenges
+# Dingcodingco Challenge Solutions
+
+미션 제출을 끝낸 뒤 자신의 코드·실험·설명과 비교하는 공개 참고 답안입니다.
+
+- 각 답안은 해당 미션 마감 24시간 전에 자동 공개됩니다.
+- 일반 트랙에는 하나의 정답 대신 통과 가능한 검증 수준과 대안을 담습니다.
+- 알고리즘 트랙에는 공식 Python·Java·JavaScript 풀이와 평가 기준을 담습니다.
+- 예시 문장이나 수치를 본인 결과처럼 복사하지 마세요.
+
+공개된 답안만 `solutions/` 아래에 나타납니다.
