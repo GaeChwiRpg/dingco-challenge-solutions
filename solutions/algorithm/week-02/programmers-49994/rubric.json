@@ -1,0 +1,36 @@
+{
+  "problemId": "programmers-49994",
+  "version": 2,
+  "criteria": [
+    {
+      "id": "state-model",
+      "label": "상태 모델링",
+      "description": "좌표를 정점, 유효한 이동을 방향 없는 간선으로 모델링한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "canonical-edge",
+      "label": "간선 정규화",
+      "description": "왕복 경로가 같은 키가 되도록 두 끝점을 일관되게 정규화한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "boundary",
+      "label": "경계 처리",
+      "description": "범위를 벗어난 명령이 위치와 방문 집합에 영향을 주지 않음을 코드와 설명으로 보장한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "invariant",
+      "label": "불변식",
+      "description": "매 반복 후 위치와 집합이 표현하는 의미를 정확히 기술한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "counterexample",
+      "label": "모델 반례",
+      "description": "방문 점만 세는 잘못된 풀이를 깨는 반례와 복잡도를 제시한다.",
+      "maxScore": 4
+    }
+  ]
+}
