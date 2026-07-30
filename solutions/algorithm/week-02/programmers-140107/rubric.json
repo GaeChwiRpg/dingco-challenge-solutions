@@ -1,0 +1,36 @@
+{
+  "problemId": "programmers-140107",
+  "version": 2,
+  "criteria": [
+    {
+      "id": "inequality",
+      "label": "수식 모델링",
+      "description": "원의 조건을 고정된 x에서 가능한 y의 상한으로 정확히 변환한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "counting",
+      "label": "배수 개수 계산",
+      "description": "0을 포함한 k의 배수 개수를 floor(yMax/k)+1로 설명한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "numeric-safety",
+      "label": "수치 안정성",
+      "description": "제곱 연산의 정수 범위와 제곱근 경계 오차를 언어별 타입 선택과 함께 다룬다.",
+      "maxScore": 4
+    },
+    {
+      "id": "complexity",
+      "label": "복잡도 개선",
+      "description": "이중 순회와 단일 순회의 연산량을 d와 k로 비교한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "edge-cases",
+      "label": "축·원점 검증",
+      "description": "원점과 축 위 점, k가 d와 같은 경우를 직접 검증한다.",
+      "maxScore": 4
+    }
+  ]
+}
