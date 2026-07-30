@@ -1,0 +1,36 @@
+{
+  "problemId": "programmers-43162",
+  "version": 2,
+  "criteria": [
+    {
+      "id": "graph-model",
+      "label": "그래프 모델링",
+      "description": "컴퓨터와 연결 정보를 정점·간선 및 인접 행렬로 정확히 해석한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "component-count",
+      "label": "연결 요소 논리",
+      "description": "미방문 정점에서 시작한 탐색 횟수가 연결 요소 수와 같음을 설명한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "visited",
+      "label": "방문 불변식",
+      "description": "방문 표시 시점과 중복 탐색 방지의 관계를 코드와 반례로 보여준다.",
+      "maxScore": 4
+    },
+    {
+      "id": "complexity",
+      "label": "복잡도",
+      "description": "인접 행렬의 행 검사 비용을 포함해 시간·공간 복잡도를 분석한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "edge-cases",
+      "label": "연결 구조 검증",
+      "description": "독립, 완전 연결, 간접 연결 입력의 기대 연결 요소 수를 검증한다.",
+      "maxScore": 4
+    }
+  ]
+}
