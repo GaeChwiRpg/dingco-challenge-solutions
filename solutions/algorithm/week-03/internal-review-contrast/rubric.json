@@ -1,0 +1,36 @@
+{
+  "problemId": "internal-review-contrast",
+  "version": 2,
+  "criteria": [
+    {
+      "id": "greedy-counterexample",
+      "label": "풀이 대조",
+      "description": "점수순 그리디가 최적 선택을 놓치는 구체적 반례를 제시하고 원인을 설명한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "search-state",
+      "label": "탐색 상태",
+      "description": "다음 인덱스, 선택 수, 점수, 충돌 확인에 필요한 상태를 빠짐없이 정의한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "correctness",
+      "label": "완전성과 안전성",
+      "description": "모든 유효 조합을 한 번씩 고려하면서 충돌 조합을 배제함을 설명한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "pruning",
+      "label": "가지치기",
+      "description": "남은 원소 수 부족 등 정답을 잃지 않는 가지치기를 구현하고 근거를 제시한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "complexity",
+      "label": "복잡도",
+      "description": "전처리 비용과 최악의 지수 탐색 비용을 n 기준으로 분석한다.",
+      "maxScore": 4
+    }
+  ]
+}
