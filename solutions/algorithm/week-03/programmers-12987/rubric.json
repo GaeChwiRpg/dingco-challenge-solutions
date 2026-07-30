@@ -1,0 +1,36 @@
+{
+  "problemId": "programmers-12987",
+  "version": 2,
+  "criteria": [
+    {
+      "id": "greedy-choice",
+      "label": "그리디 선택",
+      "description": "가장 작은 A를 이기는 가장 작은 B를 선택하는 규칙을 명확히 정의한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "exchange-proof",
+      "label": "교환 논리",
+      "description": "더 큰 B를 사용한 해를 작은 가능한 B를 사용한 해로 바꿔도 승수가 줄지 않음을 설명한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "pointer-invariant",
+      "label": "포인터 불변식",
+      "description": "A 포인터와 B 순회가 처리한 구간 및 누적 승수를 정확히 나타낸다.",
+      "maxScore": 4
+    },
+    {
+      "id": "complexity",
+      "label": "복잡도",
+      "description": "정렬과 선형 매칭의 비용을 분리해 전체 복잡도를 도출한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "ties",
+      "label": "동점·극단 검증",
+      "description": "동점은 패배라는 조건과 전승·전패 입력을 검증한다.",
+      "maxScore": 4
+    }
+  ]
+}
