@@ -1,0 +1,36 @@
+{
+  "problemId": "programmers-77484",
+  "version": 2,
+  "criteria": [
+    {
+      "id": "state-model",
+      "label": "상태 모델링",
+      "description": "0, 확정 일치, 확정 불일치를 겹치지 않게 구분하고 최고·최저 일치 수를 정확히 정의한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "rank-boundary",
+      "label": "순위 경계",
+      "description": "일치 수 0과 1의 순위 경계를 포함해 순위 변환 규칙을 일반식이나 완전한 표로 설명한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "invariant",
+      "label": "반복 불변식",
+      "description": "순회한 구간에서 match와 unknown이 무엇을 센 값인지 설명한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "complexity",
+      "label": "복잡도 비교",
+      "description": "배열 membership과 집합 membership의 차이를 입력 크기 기준으로 비교한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "edge-cases",
+      "label": "경계 검증",
+      "description": "모두 0, 일치 0, 일치 6을 포함한 반례의 기대 결과를 제시한다.",
+      "maxScore": 4
+    }
+  ]
+}
