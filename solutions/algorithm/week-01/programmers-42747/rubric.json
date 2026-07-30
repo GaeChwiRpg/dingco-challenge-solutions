@@ -1,0 +1,36 @@
+{
+  "problemId": "programmers-42747",
+  "version": 2,
+  "criteria": [
+    {
+      "id": "definition",
+      "label": "정의 번역",
+      "description": "H-Index 정의를 정렬된 배열의 인덱스와 남은 논문 수 조건으로 정확히 바꾼다.",
+      "maxScore": 4
+    },
+    {
+      "id": "boundary-proof",
+      "label": "경계 증명",
+      "description": "처음 만족하는 n-i가 최대값이 되는 이유를 단조성과 함께 설명한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "algorithm",
+      "label": "알고리즘 정확성",
+      "description": "정렬 방향과 종료 조건이 일관되고 모든 입력에서 올바른 값을 반환한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "complexity",
+      "label": "복잡도",
+      "description": "정렬과 순회의 비용을 분리해 전체 시간 복잡도를 도출한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "counterexample",
+      "label": "오개념 반례",
+      "description": "H가 배열 원소여야 한다는 오개념 또는 중복값 처리 오류를 깨는 반례를 제시한다.",
+      "maxScore": 4
+    }
+  ]
+}
