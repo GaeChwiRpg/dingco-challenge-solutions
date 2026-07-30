@@ -1,0 +1,36 @@
+{
+  "problemId": "internal-stair-fatigue",
+  "version": 2,
+  "criteria": [
+    {
+      "id": "dp-state",
+      "label": "DP 상태",
+      "description": "계단 위치와 마지막 이동이 점프인지 여부를 포함한 상태를 모호함 없이 정의한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "transition",
+      "label": "전이식",
+      "description": "한 칸 이동과 연속되지 않는 두 칸 점프의 선행 상태를 정확히 연결한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "initialization",
+      "label": "초기값·불가능 상태",
+      "description": "지면, 첫 계단, 도달 불가능 상태를 안전하게 초기화한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "correctness",
+      "label": "최적 부분 구조",
+      "description": "각 상태가 가능한 모든 마지막 이동을 고려하며 최소값을 유지함을 설명한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "complexity",
+      "label": "복잡도·최적화",
+      "description": "선형 시간 복잡도와 배열 또는 상수 공간 구현의 차이를 분석한다.",
+      "maxScore": 4
+    }
+  ]
+}
