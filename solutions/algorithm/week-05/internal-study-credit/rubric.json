@@ -1,0 +1,36 @@
+{
+  "problemId": "internal-study-credit",
+  "version": 2,
+  "criteria": [
+    {
+      "id": "dp-state",
+      "label": "DP 상태",
+      "description": "dp[x]를 정확히 x학점을 만드는 최소 모듈 수로 정의한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "transition",
+      "label": "무제한 전이",
+      "description": "각 학점을 반복 사용 가능한 전이로 구현하고 0/1 선택 문제와 차이를 설명한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "unreachable",
+      "label": "도달 불가능 처리",
+      "description": "sentinel과 -1 반환을 안전하게 처리하며 잘못된 덧셈을 방지한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "optimality",
+      "label": "최소성 증명",
+      "description": "마지막 모듈을 기준으로 모든 후보를 고려하므로 최소값이 유지됨을 설명한다.",
+      "maxScore": 4
+    },
+    {
+      "id": "counterexample",
+      "label": "그리디 반례·복잡도",
+      "description": "큰 학점 우선 그리디의 반례와 DP 시간·공간 복잡도를 제시한다.",
+      "maxScore": 4
+    }
+  ]
+}
