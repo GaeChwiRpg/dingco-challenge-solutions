@@ -1,0 +1,2 @@
+import assert from "node:assert/strict";import test from "node:test";import {operate} from "../src/index.mjs";
+test("executes the documented rollback path on failed observation",async()=>{let rolled=false;const result=await operate({plan:{},accept:async()=>({ok:true,artifact:"v2"}),deploy:async()=>({id:"v2"}),observe:async()=>({ok:false,metrics:{defects:1}}),rollback:async()=>{rolled=true;}});assert.equal(result.state,"rolled_back");assert.equal(rolled,true);});
